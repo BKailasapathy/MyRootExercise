@@ -3,10 +3,10 @@
   TRandom2 r;
   for(int i; i<1000; i++)
   {
-    hist.Fill(r.Gaus());
+    hist.Fill(r.gaus());
   }
   
   TCanvas *c1 = new TCanvas();
   hist.Draw();
-  hist.Fit("Gaus");
+  hist.Fit("gaus");
 }  
