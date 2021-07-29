@@ -2,7 +2,9 @@
 Some exercises on CERN Root
 
 
-## histo.c
+## Histogram templates
+
+### Basic Template
 ```
-wget https://raw.githubusercontent.com/BKailasapathy/MyRootExercise/main/histo.c
+wget https://raw.githubusercontent.com/BKailasapathy/MyRootExercise/main/histo_Template1.c
 ```
